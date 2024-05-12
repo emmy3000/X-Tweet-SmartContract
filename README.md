@@ -7,17 +7,16 @@
 The project follows a standard directory structure:
 ```bash
 X-Tweet-SmartContract/
-├── README.md
-├── .eslintrc.js
-├── babel.config.js
 ├── contract/
 │   └── X-Tweet.sol
-├── .gitignore
-├── node_modules/
-├── package-lock.json
-├── package.json
 └── tests/
     └── X-Tweet.test.js
+├── .eslintrc.js
+├── .gitignore
+├── README.md
+├── node_modules/
+├── package.json
+├── package-lock.json
 ```
 
 ## Configuration Files
