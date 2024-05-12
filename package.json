@@ -1,0 +1,43 @@
+{
+  "name": "x-tweet-smartcontract",
+  "version": "1.0.0",
+  "description": "X-Tweet-SmartContract: Implements basic functionalities for information and asset exchange on the Ethereum Blockchain, interacting with the custom-built decentralized application (DApp) 'X-DApp'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmy3000/X-Tweet-SmartContract.git"
+  },
+  "author": "Emeka Emodi",
+  "license": "ISC",
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "smart contract",
+    "dapp",
+    "solidity"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "sinon": "^11.1.0",
+    "express": "^4.17.1",
+    "chai-http": "^4.3.0"
+  }
+}
