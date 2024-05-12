@@ -1,0 +1,32 @@
+# Ignore directories containing external dependencies.
+node_modules/
+coverage/
+
+# Ignore project's configuration files.
+package-lock.json     # Generated lock file for npm packages
+.env                  # Environment variable configuration file
+
+# Ignore IDE/Editor-specific files.
+.vscode/              # Visual Studio Code settings directory
+.idea/                # JetBrains IDE settings directory
+*.sublime-project     # Sublime Text project file
+*.sublime-workspace   # Sublime Text workspace file
+
+# Ignore operating system-specific files.
+.DS_Store             # macOS specific file
+Thumbs.db             # Windows specific file
+
+# Ignore build-generated files.
+dist/                 # Build output directory
+build/                # Build directory
+*.log                 # Log files
+
+# Ignore miscellaneous files.
+*.tmp                 # Temporary files
+*.bak                 # Backup files
+
+# Ignore everything in the root except the README.md file.
+/*
+!.gitignore           # Include the '.gitignore' file itself
+!README.md            # Include the 'README.md' file
+~                     # Ignore backup files created by text editors
