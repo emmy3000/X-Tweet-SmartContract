@@ -29,6 +29,10 @@ The project includes the following configuration files:
 ## Usage
 To use the X-Tweet Smart Contract, follow these steps:
 
+- Install the Solidity compiler (`solc`) by running the following command;
+```bash
+npm install -g solc
+```
 - Create a `.gitignore` file and populate it with the names of sensitive applications that should not be pushed to the remote repository.
 - Initialize the project by creating a `package.json` file using the command `npm init`.
 - Set up essential configuration file scripts to handle tasks such as linting and code transpilation.
