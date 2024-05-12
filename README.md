@@ -4,7 +4,7 @@
 *X-Tweet-SmartContract* facilitates information and asset exchange on the Ethereum Blockchain Network, interacting seamlessly with the custom-built decentralized application (DApp) known as *"X-DApp"*.
 
 ## Project Structure
-A diagramatic representation of the project's current code base.
+Current diagramatic representation of the project's code base:
 ```shell
 X-Tweet-SmartContract/
 ├── contracts/
