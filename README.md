@@ -9,14 +9,14 @@ The project follows a standard directory structure:
 X-Tweet-SmartContract/
 ├── contract/
 │   └── X-Tweet.sol
-└── tests/
-    └── X-Tweet.test.js
+├── tests/
+│   └── X-Tweet.test.js
 ├── .eslintrc.js
 ├── .gitignore
 ├── README.md
 ├── node_modules/
 ├── package.json
-├── package-lock.json
+└── package-lock.json
 ```
 
 ## Configuration Files
