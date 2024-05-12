@@ -7,11 +7,16 @@
 Current diagramatic representation of the project's code base:
 ```shell
 X-Tweet-SmartContract/
-├── contracts/
-│   └── Tweet.sol
-├── tests/
-│   └── Tweet.test.js
-└── README.md
+├── README.md
+├── babel.config.js
+├── contract/
+│   └── X-Tweet.sol
+├── node_modules/
+├── package-lock.json
+├── package.json
+└── tests/
+    └── Tweet.test.js
+```
 
 ## Assets
 This project utilizes cryptocurrency assets on the Ethereum blockchain network. For testing purposes, Ethereum dummy cryptocurrency can be obtained from any chosen faucet.
