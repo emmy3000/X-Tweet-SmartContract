@@ -12,8 +12,9 @@ X-Tweet-SmartContract/
 ├── tests/
 │   └── X-Tweet.test.js
 ├── .eslintrc.js
-├── .gitignore
 ├── README.md
+├── babel.config.js
+├── .gitignore
 ├── node_modules/
 ├── package.json
 └── package-lock.json
